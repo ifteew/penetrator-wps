@@ -2201,7 +2201,7 @@ else if(!strcmp(argv[i],"-W"))if((i+1)>=argc||argv[i+1][0]=='-')return printf("E
   printf("\nPASSWORDS:\n");
   pASSES *akt=passlist;
   while(akt){
-    printf("SSID: %s PIN: %s PASS: %s HEX: ",akt->ssid,akt->pin,akt->pass);printhex(akt->pass,akt->passlen);
+    printf("SSID: %s PIN: %s PASS: %s HEX: ",akt->ssid,akt->pin,akt->pass);
     akt=akt->next;
   }
   return 0;
