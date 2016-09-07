@@ -2009,7 +2009,7 @@ int main(int argc,char **argv){
   TIMEOUT=1000;
   MAXRESEND=5;
   AKTCHANNEL=0;
-  FAILSLEEP=60;
+  FAILSLEEP=5;
   autoatak=0;
   MIDDELAY=0;
   FUCKSESSIONS=0;
